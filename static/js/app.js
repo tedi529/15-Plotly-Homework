@@ -86,9 +86,9 @@ d3.json("static/data/samples.json").then(function(bSamples) {
             }
         ];
         
-        let gaugeLayout = { width: 550, height: 400,  margin: { t: 0, b: 0 } };
+        let gaugeLayout = { width: 550, height: 400 };
 
-        Plotly.newPlot('gauge', gaugeData, gaugeLayout);
+        Plotly.newPlot('gauge', gaugeData, gaugeLayout, {response:true});
 
     };
     

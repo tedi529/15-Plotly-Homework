@@ -66,11 +66,6 @@ body {
     padding: 10px;
 }
 
-.gauge-area {
-    padding: 20px;
-    margin-top: 100px;
-}
-
 /* Footer styling */
 .footer {
     text-align: center;
@@ -97,4 +92,5 @@ body {
         font-size: 3rem;
         animation: title 1.2s forwards linear;
     }
+
 }
